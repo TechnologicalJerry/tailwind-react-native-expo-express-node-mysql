@@ -48,6 +48,10 @@
   },
   "homepage": "https://github.com/TechnologicalJerry/tailwind-react-native-expo-express-node-mysql#readme",
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
     "tailwind-react-native-expo-express-node-mysql": "file:"
   }
 }
