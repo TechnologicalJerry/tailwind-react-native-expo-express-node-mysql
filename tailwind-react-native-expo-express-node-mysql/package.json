@@ -1,0 +1,53 @@
+{
+  "name": "tailwind-react-native-expo-express-node-mysql",
+  "version": "1.0.0",
+  "description": "This is a TypeScript-based Express.js CRUD application with MySQL as the database. The application provides a simple user management system, allowing users to be created, read, updated, and deleted via REST API endpoints.",
+  "main": "server.ts",
+  "scripts": {
+    "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnologicalJerry/tailwind-react-native-expo-express-node-mysql.git"
+  },
+  "keywords": [
+    "Express.js",
+    "TypeScript",
+    "MySQL",
+    "CRUD",
+    "REST",
+    "API",
+    "Node.js",
+    "Backend",
+    "Development",
+    "Database",
+    "API",
+    "Endpoints",
+    "MVC",
+    "Architecture",
+    "User",
+    "Management",
+    "Asynchronous",
+    "Programming",
+    "Promises",
+    "MySQL2",
+    "Express",
+    "Router",
+    "Database",
+    "Connection",
+    "Error",
+    "Handling",
+    "Middleware",
+    "Web",
+    "Development"
+  ],
+  "author": "technojerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechnologicalJerry/tailwind-react-native-expo-express-node-mysql/issues"
+  },
+  "homepage": "https://github.com/TechnologicalJerry/tailwind-react-native-expo-express-node-mysql#readme",
+  "dependencies": {
+    "tailwind-react-native-expo-express-node-mysql": "file:"
+  }
+}
