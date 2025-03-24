@@ -1,8 +1,12 @@
-// src/server.ts
 import app from './app';
+import dotenv from 'dotenv';
+import logger from './utils/logger';
+import chalk from 'chalk';
 
-const PORT = 3000;
+dotenv.config();
+
+const PORT = process.env.SERVER_PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    logger.info(`🚀 Server running at ${chalk.green(`http://localhost:${PORT}`)}`);
 });
